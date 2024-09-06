@@ -19,6 +19,9 @@ function App() {
 
   return (
     <main>
+      <div class="myName">
+        <h1>Andrew Muse</h1>
+      </div>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
