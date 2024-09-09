@@ -21,7 +21,7 @@ function App() {
     window.location.href = "https://www.facebook.com/andrew.muse.9";
   }
 
-  function goToLinkedIn() {
+  function goToGitHub() {
     window.location.href = "https://github.com/Amuse93";
   }
 
