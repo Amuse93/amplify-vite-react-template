@@ -19,7 +19,10 @@ function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>Andrew Muse</h1>
+      <a href="https://www.linkedin.com/in/andrew-muse/" target="_blank" rel="noopener noreferrer">
+        Connect with me on LinkedIn
+      </a>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
