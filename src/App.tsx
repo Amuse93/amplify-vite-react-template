@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
-import type { Schema } from "../amplify/data/resource";
-import { generateClient } from "aws-amplify/data";
+//import { useEffect, useState } from "react";
+//import type { Schema } from "../amplify/data/resource";
+//import { generateClient } from "aws-amplify/data";
 
-const client = generateClient<Schema>();
+//const client = generateClient<Schema>();
 
 function App() {
   //const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
-  useEffect(() => {
-    client.models.Todo.observeQuery().subscribe({
-      next: (data) => setTodos([...data.items]),
-    });
-  }, []);
+  //useEffect(() => {
+  //  client.models.Todo.observeQuery().subscribe({
+  //    next: (data) => setTodos([...data.items]),
+  //  });
+  //}, []);
 
   function goToLinkedIn() {
     window.location.href = "https://www.linkedin.com/in/andrew-muse/";
