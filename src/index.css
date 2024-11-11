@@ -23,7 +23,7 @@ p {
   margin: 5px;
 }
 .bordered-container {
-  border-style: dashed;
+  border-style: solid;
   margin: 5px;
   padding: 5px;
 }
