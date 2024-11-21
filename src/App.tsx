@@ -31,7 +31,7 @@ function App() {
     <main>
       <div className="bordered-container">
         <img src={image} /> 
-        <h1>Andrew Muse</h1>
+        <h1>Andrew Muse :)</h1>
         <br />
         <p>
           Experienced IT Support Specialist with a strong track record in managing IT operations and driving user satisfaction. 
