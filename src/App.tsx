@@ -34,8 +34,7 @@ function App() {
         <h1>Andrew Muse</h1>
       </div>
       <div className="summary-section">
-        <h2>Summary</h2>
-        <br />
+        <h2>IT Support Manager</h2>
         <p>
           Experienced IT Support Specialist with a strong track record in managing IT operations and driving user satisfaction. 
           Proven ability to develop and implement standard operating procedures to streamline incident resolution, 
