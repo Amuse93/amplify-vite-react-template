@@ -31,7 +31,10 @@ function App() {
     <main>
       <div className="bordered-container">
         <img src={image} /> 
-        <h1>Andrew Muse :)</h1>
+        <h1>Andrew Muse</h1>
+      </div>
+      <div className="summary-section">
+        <h2>Summary</h2>
         <br />
         <p>
           Experienced IT Support Specialist with a strong track record in managing IT operations and driving user satisfaction. 
